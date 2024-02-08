@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+     height: 100vh;
+    /* background-color: #a5d8ff; */
+}
+nav{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    width:100vw;
+    font-size: 1.2rem;
+    font-weight: 400;
+    height: 10vh;
+    background-color:#a5d8ff;
+    text-decoration: none;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+nav a:hover{
+    /* background-color: black; */
+    color: blanchedalmond;
+    /* box-shadow: -2px 2px 5px black; */
+    /* border-radius: 10px;
+    margin: 10px; */
+}
+.hero{
+    width:100vw;
+    height: 50vh;
+    background-color: #a5d8ff7f;
+}
+
+
+
